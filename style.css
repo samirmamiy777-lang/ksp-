@@ -1,0 +1,58 @@
+
+body {
+    background-color: rgb(236, 240, 241);
+}
+
+
+body {
+    background-color: rgb(240, 240, 245); 
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+ul li a {
+    color: #2c3e50;         
+    font-size: 18px;        
+    font-style: italic;    
+    text-decoration: none;   
+}
+
+
+h2 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgb(200, 220, 240); 
+}
+
+
+p {
+    color: rgb(80, 80, 120);
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+/* Подробное описание — в твоем HTML его нет, но если добавишь */
+/* .full-description {
+    color: rgb(50, 50, 80);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+} */
+
+/* Список характеристик */
+ul li {
+    list-style-image: url('images/marker.png'); /* нужна картинка-маркер */
+    /* если нет картинки, можно заменить на обычный квадрат: */
+    /* list-style-type: square; */
+    color: #16a085; /* цвет текста характеристик (любой) */
+    font-weight: bold;
+}
+
+
+

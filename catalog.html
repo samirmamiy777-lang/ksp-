@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Каталог</title>
+</head>
+<body>
+
+<ul>
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="catalog.html">Каталог</a></li>
+</ul>
+<hr>
+
+<h1>Мои проекты</h1>
+
+<div class="filters">
+    <button data-filter="all">Все проекты</button>
+    <button data-filter="web">Веб-сайты</button>
+    <button data-filter="design">Дизайн</button>
+    <button data-filter="landing">Лендинги</button>
+</div>
+
+<div class="product" data-category="web">
+    <h2>Проект 1</h2>
+    <a href="images/1.jpg" target="_blank">
+        <img src="images/1.jpg" width="200">
+    </a>
+    <p><a href="item.html">Подробнее</a></p>
+    <button class="add-to-cart" data-name="Проект 1" data-price="10000">В корзину</button>
+</div>
+
+<br>
+
+<div class="product" data-category="design">
+    <h2>Проект 2</h2>
+    <a href="images/2.jpg" target="_blank">
+        <img src="images/2.jpg" width="200">
+    </a>
+    <p><a href="item2.html">Подробнее</a></p>
+    <button class="add-to-cart" data-name="Проект 2" data-price="15000">В корзину</button>
+</div>
+
+<br>
+
+<div class="product" data-category="landing">
+    <h2>Проект 3</h2>
+    <a href="images/3.jpg" target="_blank">
+        <img src="images/3.jpg" width="200">
+    </a>
+    <p><a href="item3.html">Подробнее</a></p>
+    <button class="add-to-cart" data-name="Проект 3" data-price="17000">В корзину</button>
+</div>
+
+<br>
+
+<hr>
+<h2>Корзина</h2>
+<div id="cart-items">
+    <p>Корзина пуста</p>
+</div>
+<p id="cart-total">Итого: 0 ₽</p>
+
+<button id="clear-cart">Очистить корзину</button>
+<button id="checkout">Оплатить</button>
+
+<hr>
+<p>Все фотографии взяты с сайта <a href="https://ru.freepik.com/app">Freepik.com</a></p>
+<p>&copy; Все права защищены</p>
+
+<script src="script.js"></script>
+</body>
+</html>
